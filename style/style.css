@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* Projeto feito em Mobile Firth */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    position: relative;
+    background: linear-gradient(to top, #1B0DDB, #4B6FDB) fixed; 
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.471);
+    width: 80%;
+}
+
+input{
+    display: block;
+    
+}
