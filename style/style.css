@@ -8,6 +8,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+:root{
+    --cor1: #1B0DDB;
+    --cor2: #4B6FDB;
+}
+
 body, html{
     width: 100vw;
     height: 100vh;
@@ -15,7 +20,7 @@ body, html{
 
 body{
     position: relative;
-    background: linear-gradient(to top, #1B0DDB, #4B6FDB) fixed; 
+    background: linear-gradient(to top, var(--cor1), var(--cor2)) fixed; 
 }
 
 main{
@@ -25,14 +30,10 @@ main{
     transform: translate(-50%, -50%);
     background: #fff;
     margin: auto;
-    text-align: center;
+    columns: 2;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.471);
     width: 80%;
-}
-
-input{
-    display: block;
-    
+    height: 50%;
 }

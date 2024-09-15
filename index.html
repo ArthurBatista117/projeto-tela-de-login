@@ -9,10 +9,22 @@
 </head>
 <body>
     <main>
-        <h1>Login</h1>
-        <input type="email" name="" id="email" required placeholder="exemplo@email.com" autocomplete="email">
+        <div id="imagem">
+            <img src="imagens/padroes.jpg" alt="foto-login">
+        </div>
+        <div id="formulário">
+            <h1>LOGIN</h1>
+            <p>Seja bem vindo novamente</p>
+            <form action="cadastro.py" method="post">
+                
+                <input type="email" name="email" id="email" autocomplete="email" required placeholder="exemplo@ex.com">
 
-        <input type="password" name="" id="senha" min="8" max="8" required placeholder="8 Dígitos" autocomplete="current-password">
+                <input type="password" name="senha" id="senha" autocomplete="current-password" required placeholder="8 dígitos">
+
+                <input type="submit" value="LOGIN">
+                <button>Esqueci minha senha</button>
+            </form>
+        </div>
     </main>
 </body>
 </html>
