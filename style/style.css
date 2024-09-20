@@ -48,20 +48,27 @@ div#imagem{
     height: 40%;
 }
 
-input{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #1B0DDB;
+div.campo{
+    margin-top: 20px;
 }
-
-input#senha{
-    display: block;
+div.campo > input{
+    margin-bottom: 20px;
+    padding-inline: 30px;
+    padding-block: 5px;
 }
 
 input#submit, button{
-    background-color: #fff;
-    border: 1px solid #1B0DDB;
+    background-color: #6b62e4;
+    color: #fff;
+    border: none;
     padding-inline: 10px;
     padding-block: 5px;
+    width: 90%;
+}
+
+span.material-icons{
+    color: white;
+    background-color: black;
+    margin-right: -5px;
+    
 }

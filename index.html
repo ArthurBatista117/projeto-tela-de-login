@@ -18,10 +18,17 @@
             <p>Seja bem vindo novamente</p>
             <form action="cadastro.py" method="post">
                 
-                <input type="email" name="email" id="email" autocomplete="email" required placeholder="exemplo@ex.com">
-
-                <input type="password" name="senha" id="senha" autocomplete="current-password" required placeholder="8 dígitos">
-                <input type="submit" value="LOGIN" id="submit">
+                <div class="campo">
+                    <label for="email"><span class="material-icons">person</span></label>
+                    <input type="email" name="email" id="email" autocomplete="email" required placeholder="Seu email">
+                </div>
+                <div class="campo">
+                    <label for="senha"><span class="material-icons">lock</span></label>
+                    <input type="password" name="senha" id="senha" autocomplete="current-password" required placeholder="8 dígitos">
+                </div>
+                <label for="submit" class="format"><span class="material-icons">login</span></label>
+                <input type="submit" value="Entrar" id="submit">
+                <span class="material-icons">email</span>
                 <button>Esqueci minha senha</button>
             </form>
         </div>
