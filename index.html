@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media_query.css">
 </head>
 <body>
     <main>
         <div id="imagem">
-            <img src="imagens/padroes.jpg" alt="foto-login">
+            
         </div>
-        <div id="formulário">
+        <div id="formulario">
             <h1>LOGIN</h1>
             <p>Seja bem vindo novamente</p>
             <form action="cadastro.py" method="post">
@@ -20,8 +21,7 @@
                 <input type="email" name="email" id="email" autocomplete="email" required placeholder="exemplo@ex.com">
 
                 <input type="password" name="senha" id="senha" autocomplete="current-password" required placeholder="8 dígitos">
-
-                <input type="submit" value="LOGIN">
+                <input type="submit" value="LOGIN" id="submit">
                 <button>Esqueci minha senha</button>
             </form>
         </div>
