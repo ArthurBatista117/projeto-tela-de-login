@@ -1,1 +1,15 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    main{
+        width: 800px;
+    }
+
+    div#butoes{
+        width: 100%;
+    }
+
+    input#submit, button{
+        display: inline;
+    }
+}

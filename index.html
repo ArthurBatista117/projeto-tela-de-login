@@ -4,11 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media_query.css">
 </head>
 <body>
-    
+    <main>
+        <div id="perfil">
+
+        </div>
+        <form action="login.py" method="post"></form>
+            <legend>Login</legend>
+            <p>Bem vindo novamente!</p>
+            <div id="formulario">
+                <div class="campo">
+                    <label for="imail"><span class="material-icons" id="personal">personal</span></label>
+                    <input type="email" name="email" id="imail" required placeholder="Seu email" autocomplete="email">
+                </div>
+                <div class="campo">
+                    <label for="senha"><span class="material-icons">password</span></label>
+                    <input type="password" name="senha" id="senha" required minlength="8" placeholder="Senha" autocomplete="current-password">
+                </div>
+            </div>
+            <div id="butoes">
+                <div id="pos">
+                    <input type="submit" value="Entrar" id="submit">
+                    <button>Esqueci minha senha</button>
+                </div>
+            </div>
+        </form>
+    </main>
 </body>
 </html>

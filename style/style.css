@@ -1,1 +1,96 @@
 @charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --cor1: #AE07E0;
+    --cor2: #9B07E0;
+    --cor3: #1A00E1;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    position: relative;
+    background: linear-gradient(to top, var(--cor3), var(--cor2)) fixed;
+}
+
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 60%;
+    background-color: #f0f2ff;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.462);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+legend, p{
+    text-align: center;
+}
+
+legend{
+    font-size: 1.5em;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+div#butoes{
+    position: relative;
+    display: block;
+    margin-top: 100px;
+}
+
+div#pos{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+span.material-icons{
+    color: var(--cor3);
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+div#pos > input, button{
+    margin-bottom: 10px;
+    border: none;
+    color: #f0f2ff;
+    padding: 10px;
+    background-color: var(--cor1);
+    width: 400px;
+}
+
+input#imail{
+    position: absolute;
+    margin-left: -45px;
+    padding: 5px;
+    bottom: 75%;
+    width: 80%;
+    border: 1px solid var(--cor3);
+}
+
+input#senha{
+    width: 83.8%;
+    padding: 5px;
+    border: 1px solid var(--cor3);
+}
+
+div.campo{
+    margin-top: 30px;
+}
